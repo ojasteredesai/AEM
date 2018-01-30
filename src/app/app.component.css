@@ -35,6 +35,13 @@ body {
   line-height: 30px;
 }
 
+.mega-dropdown-menu .dropdown-header1 {
+  font-size: 15px;
+  color : #006164;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
 .carousel-control {
   width: 30px;
   height: 30px;
