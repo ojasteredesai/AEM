@@ -58,6 +58,8 @@ body {
 }
 .socialIcon
 {
-  text-align: right
+  padding: 20px 0px 0px 10px;
+  text-align: right;
+  color : #87CEFA;
 }
   
