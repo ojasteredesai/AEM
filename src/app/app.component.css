@@ -30,7 +30,7 @@ body {
 }
 .mega-dropdown-menu .dropdown-header {
   font-size: 18px;
-  color: #ff3546;
+  color : #006400;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
 }
@@ -56,3 +56,8 @@ body {
 }nel-heading {
    font-size: x-large;
 }
+.socialIcon
+{
+  text-align: right
+}
+  
