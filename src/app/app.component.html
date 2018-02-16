@@ -32,32 +32,32 @@
                       <li class="col-sm-4">
                           <ul>
                               <li class="dropdown-header">American Heart Association (AHA) Approved</li>
-                              <li><a href="#">Basic life Support (BLS)</a></li>
-                              <li><a href="#">Advanced Cardiac life Support (ACLS)</a></li>
-                              <li><a href="#">First Aid & CPR</a></li>
+                              <li><a [routerLink]="['/course','Basic life Support (BLS) -- Description to be added.']">Basic life Support (BLS)</a></li>
+                              <li><a [routerLink]="['/course','Advanced Cardiac life Support (ACLS)']">Advanced Cardiac life Support (ACLS)</a></li>
+                              <li><a [routerLink]="['/course','First Aid and CPR']">First Aid & CPR</a></li>
                           </ul>
                       </li>
                       <li class="col-sm-4">
                           <ul>
                               <li class="dropdown-header">Trauma Courses</li>
-                              <li><a href="#">Advanced Trauma Life Support (ATLS)</a></li>
-                              <li><a href="#">International Trauma Life Support (ITLS)</a></li>							
+                              <li><a [routerLink]="['/course','Advanced Trauma Life Support (ATLS)']">Advanced Trauma Life Support (ATLS)</a></li>
+                              <li><a [routerLink]="['/course','International Trauma Life Support (ITLS)']">International Trauma Life Support (ITLS)</a></li>							
                           </ul>
                       </li>
                       <li class="col-sm-3">
                           <ul>
                               <li class="dropdown-header">Tata Institute of Social Science (TISS)</li>
-                              <li><a href="#">School of Vocational Education</a></li>    
-                              <li><a href="#">PGDEMS<br/>(PGDiploma in Emergency Medical Services)</a></li>                
+                              <li><a [routerLink]="['/course','School of Vocational Education']">School of Vocational Education</a></li>    
+                              <li><a [routerLink]="['/course','(PGDiploma in Emergency Medical Services)']">PGDEMS<br/>(PGDiploma in Emergency Medical Services)</a></li>                
                           </ul>
                       </li>
                       <li class="col-sm-4">
                           <ul>
                               <li class="dropdown-header">Independent Courses</li>
                               <li class="dropdown-header1">1 Year Training Program</li>
-                              <li><a href="#">Basic Emergency Care (BEC)</a></li>    
+                              <li><a [routerLink]="['/course','Basic Emergency Care (BEC)']">Basic Emergency Care (BEC)</a></li>    
                               <li class="dropdown-header1">1 Month Training Program</li>                  
-                              <li><a href="#">ECG</a></li>   
+                              <li><a [routerLink]="['/course','ECG']">ECG</a></li>   
                               <li class="dropdown-header1">2 Sundays Training Program</li>                     
                           </ul>
                       </li>
@@ -130,5 +130,9 @@
         </ul>
       </div><!-- /.nav-collapse -->
     </nav>
+    <div class="container">
+        <router-outlet></router-outlet>
+        <a [routerLink]="['/course']">Back</a>
+    </div>
   </div>
   
