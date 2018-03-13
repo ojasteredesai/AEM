@@ -69,4 +69,8 @@ body {
   text-align: right;
   color : #87CEFA;
 }
+.hyperlink
+{
+  cursor: pointer;
+}
   
