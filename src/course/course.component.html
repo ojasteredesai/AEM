@@ -1,1 +1,6 @@
-<p>{{name}}</p>
+<div class="blog-post" innerHtml="{{selectedCourse.description}}"></div>
+<div>
+<div *ngFor = 'let image of selectedCourse.imageUrls'>
+    <img [src] = 'image'>
+</div>
+</div>
