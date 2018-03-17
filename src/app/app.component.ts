@@ -30,30 +30,9 @@ export class AppComponent implements OnInit {
           $(this).toggleClass('open');       
       }
   );
-/*
-  $(".dropdown").click(
-    function () {
-
-        $('.dropdown-menu').slideUp("100");
-        $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
-        $(this).toggleClass('open');
-    }
-
-);
-$(document).mouseup(function (e) {
-  var container = $(".dropdown-menu");
-
-  if (!container.is(e.target) // if the target of the click isn't the container...
-      && container.has(e.target).length === 0) // ... nor a descendant of the container
-  {
-      container.hide();
-  }
-});*/
   }
   
   OnCourseClick(event){
-   // alert(event.target.id);
-  //  this.router.navigate(['/course','']);
     this.router.navigate(['/course',event.target.id]);
   }
 }

@@ -1,6 +1,10 @@
 <div class="blog-post" innerHtml="{{selectedCourse.description}}"></div>
-<div>
-<div *ngFor = 'let image of selectedCourse.imageUrls'>
-    <img [src] = 'image'>
-</div>
-</div>
+<br/><br/>
+
+<table width = 100%>
+    <tr>
+        <td *ngFor = 'let image of selectedCourse.imageUrls'>
+            <img [src] = 'image' height="300" width="300">
+        </td>
+    </tr>
+</table>
