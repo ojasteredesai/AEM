@@ -105,7 +105,46 @@ export class CourseDetailComponent implements OnInit{
                         </tr>
                         </table>
                         `
+        },
+        {
+            "id" : "4",
+            "imageUrls":['./assets/images/atls_1.png',
+                        './assets/images/atls_2.png'],
+            "description" : `<b>Advanced trauma life support (commonly abbreviated ATLS) </b> is a training program for medical providers in the management of acute trauma cases.
+            <br/><br/>
+                        <p>
+                        ATLS is now widely accepted as the standard of care for initial assessment and treatment in trauma centres. The premise of the ATLS program is to treat the greatest threat to life first. It also advocates that the lack of a definitive diagnosis and a detailed history should not slow the application of indicated treatment for life-threatening injury, with the most time-critical interventions performed early.                    
+                        </p>
+                        <b>Eligibility -–</b> MBBS and Above Degree Holders.
+                        <br/><br/>
+                        <b>Duration -–</b> 3 Days.
+                        <br/><br/>
+                        <b>Certified by –-</b> American College of Surgeons (ACS).
+                        <br/><br/>
+                        `
+        },
+        {
+            "id" : "5",
+            "imageUrls":[],
+            "description" : `<b>International Trauma Life Support</b> is dedicated to the education in managing out-of-hospital trauma situations. <br/><br/>
+                            <b>Course Content</b>
+                            <br/><br/>
+                            <ul>
+                            <li>Patient assessment and management</li>
+                            <li>Basic and advanced airway management</li>
+                            <li>Needle chest decompression and fluid resuscitation</li>
+                            <li>Spinal motion restriction including rapid extrication, helmet removal, log-roll, and long/backboard/scoop stretcher utilization</li>
+                            <li>Extremity immobilization and traction splint application</li>
+                            </ul>
+                            <br/><br/>
+                            <b>Course Length --</b> 16 hours
+                            <br/><br/>
+                            <b>Certified by --</b> American College of Emergency Physicians, Alabama Chapter.
+                            <br/><br/>
+                            <b>Eligibility --</b> Emergency Medical Providers such as Physicians, Nurses, Emergency Technicians, Paramedics.
+                            <br/><br/>
 
+                        `
         }
     ]
     constructor(private _route : ActivatedRoute,    private _router: Router) {
