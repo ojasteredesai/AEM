@@ -39,4 +39,8 @@ export class AppComponent implements OnInit {
   OnWorkshopClick(event){
     this.router.navigate(['/workshop',event.target.id]);
   }
+
+  OnHomeClick(){
+    this.router.navigate(['/app/home']);
+  }
 }
