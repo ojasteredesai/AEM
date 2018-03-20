@@ -1,18 +1,18 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="row socialIcon" >
-    <div class="col-md-11">
-    <i class="fa fa-facebook-official fa-2x"></i>&nbsp;&nbsp;&nbsp;    
-    <i class="fa fa-twitter fa-2x"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-youtube-play fa-2x"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-google-plus  fa-2x"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-envelope  fa-2x"></i>
-   </div>
-</div>
-<br />
-<div id="nav" class="container">
+
+<div id="nav" class="container"><div class="row socialIcon" >
+        <div class="col-md-12">
+        <i class="fa fa-facebook-official fa-2x"></i>&nbsp;&nbsp;&nbsp;    
+        <i class="fa fa-twitter fa-2x"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-youtube-play fa-2x"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-google-plus  fa-2x"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-envelope  fa-2x"></i>
+       </div>
+    </div>
+    <br />
     <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
       <div class="navbar-header">
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
@@ -69,9 +69,9 @@
                     <li class="col-sm-4">
                         <ul>
                             <li class="dropdown-header">One Day Training Workshop (Each)</li>
-                            <li><a href="#">Basic Trauma Care (BTC)</a></li>
-                            <li><a href="#">CPR/AED Workshop</a></li>
-                            <li><a href="#">Airway Management</a></li>
+                            <li><a (click)="OnWorkshopClick($event)" id="1" class="hyperlink">Basic Trauma Care (BTC)</a></li>
+                            <li><a (click)="OnWorkshopClick($event)" id="2" class="hyperlink">CPR/AED Workshop</a></li>
+                            <li><a (click)="OnWorkshopClick($event)" id="3" class="hyperlink">Airway Management</a></li>
                         </ul>
                     </li>
                 </ul>				

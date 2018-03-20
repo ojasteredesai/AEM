@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body {
   font-family: 'Open Sans', 'sans-serif';
+  background-color:	#F0F8FF! important;
 }
 .mega-dropdown {
   position: static !important;
@@ -56,3 +57,6 @@ body {
 }nel-heading {
    font-size: x-large;
 }
+.para-font  {
+  color: #008080;
+  font-size: 160%;}

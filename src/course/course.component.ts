@@ -149,7 +149,7 @@ export class CourseDetailComponent implements OnInit{
     ]
     constructor(private _route : ActivatedRoute,    private _router: Router) {
         _route.params.subscribe(val => {
-            this.id = this._route.snapshot.paramMap.get('name');  
+            this.id = this._route.snapshot.paramMap.get('id');  
             this.selectedCourse = this.courses.find(x => x.id ===  this.id);
         });
     }

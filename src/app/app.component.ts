@@ -35,4 +35,8 @@ export class AppComponent implements OnInit {
   OnCourseClick(event){
     this.router.navigate(['/course',event.target.id]);
   }
+
+  OnWorkshopClick(event){
+    this.router.navigate(['/workshop',event.target.id]);
+  }
 }
