@@ -7,13 +7,15 @@ import {RouterModule} from '@angular/router';
 import {CourseDetailComponent} from '../course/course.component';
 import {WorkshopComponent} from '../workshop/workshop.component';
 import {WelcomeComponent} from '../app/home/welcome.component';
+import {ContactComponent} from '../contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseDetailComponent,
     WorkshopComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import {WelcomeComponent} from '../app/home/welcome.component';
       {path: 'course/:id', component:CourseDetailComponent},
       {path: 'workshop', component:WorkshopComponent},
       {path: 'workshop/:id', component:WorkshopComponent},
-      {path: 'app/home', component:WelcomeComponent}
+      {path: 'app/home', component:WelcomeComponent},
+      {path: 'contact', component:ContactComponent}
     ])
   ],
   providers: [],

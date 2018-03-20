@@ -53,9 +53,13 @@ body {
   text-shadow: none;
   color: #333;
   border: 1px solid #ddd;
-}nel-heading {
+}
+
+nel-heading {
    font-size: x-large;
 }
 .para-font  {
   color: #008080;
-  font-size: 160%;}
+  font-size: 160%;
+}
+ 

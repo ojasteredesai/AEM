@@ -43,4 +43,8 @@ export class AppComponent implements OnInit {
   OnHomeClick(){
     this.router.navigate(['/app/home']);
   }
+
+  OnContactClick(){
+    this.router.navigate(['/contact']);
+  }
 }
