@@ -21,7 +21,7 @@ body {
 }
 .mega-dropdown-menu > li > ul > li > a {
   display: block;
-  color: #222;
+  color:blue;
   padding: 3px 5px;
 }
 .mega-dropdown-menu > li ul > li > a:hover,
@@ -30,7 +30,7 @@ body {
 }
 .mega-dropdown-menu .dropdown-header {
   font-size: 18px;
-  color : #006400;
+  color :red;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
 }
